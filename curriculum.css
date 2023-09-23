@@ -35,10 +35,6 @@ body {
     margin: 8px;
 }
 
-.mobile-menu:hover {
-    opacity: 0.7;
-}
-
 .cabecalho-menu {
     display: flex;
     gap: 50px;
@@ -116,6 +112,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    padding-bottom: 50px;
     gap: 25px;
 }
 
@@ -129,38 +126,12 @@ body {
     color: purple;
 }
 
-@media(max-width: 1160px) {
-    .hiper-links {
-        padding-bottom: 50px;
-    }
-}
-
 @media(max-width: 600px) {
     .about-image {
         height: 100vw;
     }
 
-    .about-info {
-        width: 90vw;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .about-description {
-        width: 80vw;
-    }
-
-    .cabecalho-menu {
-        display: none;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-}
-
-@media(max-width: 388px) {
-    .about-button {
-        width: 80vw;
+        width: 90vw;
     }
 }
