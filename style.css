@@ -82,6 +82,7 @@ body {
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
+    width: 586px;
 }
 
 .about-description {
@@ -144,6 +145,10 @@ body {
         width: 90vw;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .about-name {
+        width: 80vw;
     }
 
     .about-description {
