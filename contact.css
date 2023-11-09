@@ -89,6 +89,17 @@ body {
     
 }
 
+.about-item button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.about-item button:hover {
+    opacity: 0.8;
+}
+
 @media (max-width: 600px) {
     .cabecalho-menu {
         position: fixed;
