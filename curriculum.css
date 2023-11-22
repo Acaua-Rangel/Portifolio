@@ -160,7 +160,7 @@ body {
     gap: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 990px) {
     .cabecalho-menu {
         position: absolute;
         right: -100%;
