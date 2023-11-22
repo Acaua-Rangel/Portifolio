@@ -22,6 +22,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: white;
     padding: 30px;
 }
 
@@ -69,7 +72,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center    ;
-    padding-top: 100px;
+    padding-top: 220px;
     padding-left: 50px;
     padding-rigth: 50px;
     padding-bottom: 50px;
