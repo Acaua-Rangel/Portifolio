@@ -60,7 +60,7 @@ body {
 
 .title {
     font-family: 'League Spartan', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
 }
@@ -77,12 +77,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .about-item h2 {
     font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
 
@@ -136,5 +136,13 @@ body {
 
     .mobile-menu.active .bar:nth-child(3) {
         transform: translateY(-12px) rotate(-45deg);
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .about-item h2 {
+        font-size: 20px;
     }
 }
