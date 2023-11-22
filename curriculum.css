@@ -66,8 +66,6 @@ body {
     justify-content: space-evenly;
     padding-top: 100px;
     padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     gap: 80px;
 }
 
@@ -75,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 80px;
-    width: 40vw;
+    width: 50vw;
 }
 
 .about {
@@ -168,7 +166,7 @@ body {
 
 @media (max-width: 600px) {
     .cabecalho-menu {
-        position: fixed;
+        position: absolute;
         right: -100%;
         top: 120px;
         gap: 0;
