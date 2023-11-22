@@ -160,12 +160,6 @@ body {
     gap: 30px;
 }
 
-@media(max-width: 908px) {
-    .corpo {
-        align-items: center;
-    }
-}
-
 @media (max-width: 600px) {
     .cabecalho-menu {
         position: absolute;
@@ -189,11 +183,11 @@ body {
     }
 
     .left {
-        width: 60vw;
+        width: 70vw;
     }
     
     .rigth {
-        width: 60vw;
+        width: 70vw;
     }
 
     .mobile-menu {
