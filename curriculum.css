@@ -63,8 +63,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center    ;
     padding-top: 100px;
+    padding-left: 50px;
+    padding-rigth: 50px;
     padding-bottom: 50px;
     gap: 80px;
 }
@@ -184,6 +186,14 @@ body {
 
     .cabecalho-menu.active {
         right: 0;
+    }
+
+    .left {
+        width: 60vw;
+    }
+    
+    .rigth {
+        width: 60vw;
     }
 
     .mobile-menu {
