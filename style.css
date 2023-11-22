@@ -156,7 +156,7 @@ body {
     }
 
     .cabecalho-menu {
-        position: fixed;
+        position: absolute;
         right: -100%;
         top: 120px;
         gap: 0;
