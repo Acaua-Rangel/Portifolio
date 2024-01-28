@@ -1,0 +1,17 @@
+{
+  "name": "portifolio",
+  "version": "1.0.1",
+  "description": "Portifolio com Javascript de Acauã Rangel Brazil",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AcauRangel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
