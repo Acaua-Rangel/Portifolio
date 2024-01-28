@@ -15,6 +15,6 @@ app.get('/contato', function(req, res) {
     res.sendFile(__dirname + "/html/contact.html");
 });
 
-app.listen(3000, () => 
+app.listen(80, () => 
 console.log('Servidor iniciado na porta 3000')
 );
