@@ -16,5 +16,5 @@ app.get('/contato', function(req, res) {
 });
 
 app.listen(80, () => 
-console.log('Servidor iniciado na porta 3000')
+console.log('Servidor iniciado na porta 80')
 );
